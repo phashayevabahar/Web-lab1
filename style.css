@@ -1,0 +1,51 @@
+main {
+    margin: 0 20% 0 20%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.left-side {
+    display: inline-block;
+    margin-right: 60%;
+    padding: 0% 5%;
+    background-color: midnightblue;
+    color:white;
+}
+.right-side {
+    display: inline-block;
+    margin-left: 40%;
+    padding: 0% 5%;
+}
+h1, h2 {
+    text-transform: uppercase;
+}
+.first-and-second-containers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left-side, .right-side {
+    display:flex;
+    flex-direction: column;
+}
+.right-side h2 {
+    color: darkblue;
+}
+.name-section h2 {
+    color: black;
+}
+.name {
+    color:black;
+    font-weight: bold;
+}
+.surname {
+    color:darkblue;
+    font-weight: normal;
+}
+.specialization {
+    font-weight: normal;
+}
+.contact {
+    line-height: 2.3;
+    color:;
+}
